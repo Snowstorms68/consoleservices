@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import CallToAction from "./Elements/CallToAction";
+import CallToDownload from "./Elements/CallToDownload";
 export default function LinkListFreeScriptsLeft({ data }) {
   return (
     <main className="main-padding font-main-regular flex flex-col lg:flex-row main-padding-vertical gap-x-20">
@@ -13,7 +13,7 @@ export default function LinkListFreeScriptsLeft({ data }) {
           className="flow-text"
           dangerouslySetInnerHTML={{ __html: data.text }}
         ></div>
-        <CallToAction
+        <CallToDownload
           text="DOWNLOAD"
           link={data.downloadlink}
           download={true}

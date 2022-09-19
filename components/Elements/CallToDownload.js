@@ -6,9 +6,9 @@ import {FaCode} from "react-icons/fa";
 import {FaUsb} from "react-icons/fa";
 import {FaShoppingCart} from "react-icons/fa";
 
-export default function CallToAction({ text, link, additionalCSS, discord, whatsapp, download, code, usb, shop, arrowdirect }) {
+export default function CallToDownload({ text, link, additionalCSS, discord, whatsapp, download, code, usb, shop, arrowdirect }) {
   return (
-    <a href={link}>
+    <a href={link} target="_blank" download>
     <div
       className={`flow-text custom-btn flex flex-row gap-x-2 items-center justify-center text-white bg-black py-3 px-10 text-center font-main-regular cursor-pointer border border-black 
       hover:bg-transparent hover:text-black duration-300 ${additionalCSS}`}
